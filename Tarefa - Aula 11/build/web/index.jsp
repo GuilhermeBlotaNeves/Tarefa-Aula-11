@@ -9,13 +9,13 @@
 
 <%
  
-  Disciplina poo = new Disciplina("ILP007", "ProgramaÁ„o Orientada a Objeto", "JAVA,JSP,SERVLETS", "Segunda-Feira", "13:10");
+  Disciplina poo = new Disciplina("ILP007", "Programa√ß√£o Orientada a Objeto", "JAVA,JSP,SERVLETS", "Segunda-Feira", "13:10");
   Disciplina meto = new Disciplina("TTG001", "Metodologia da Pesquisa Cientifica Tecnologica", "ABNT, Pesquisa Cientifica, Artigo Cientifico", "Segunda-Feira", "17:00");
-  Disciplina banco =  new Disciplina("IBD002", "Bando de dados", "Modelo conceitual, lÛgico e fÌsico. SQL Oracle", "TerÁa-Feira", "15:00");
+  Disciplina banco =  new Disciplina("IBD002", "Bando de dados", "Modelo conceitual, l√≥gico e f√≠sico. SQL Oracle", "Ter√ßa-Feira", "15:00");
   Disciplina so =  new Disciplina("ISO200", "Sistemas Operacionais II", "Linux, Open-Source, Android, Mac OSX", "Quarta-Feira", "15:00");
   Disciplina eng =  new Disciplina("IES300", "Engenharia de Software III ", "Arquitetura de Software", "Quinta-Feira", "15:00");
-  Disciplina ingles =  new Disciplina("LIN400", "InglÍs IV ", "Simple Past, Speaking, Job Apply", "Sexta-Feira", "13:10");
-  Disciplina ling =  new Disciplina("ILP512", "Linguagem de ProgramaÁ„o IV ", "PHP", "Sexta-Feira", "15:00");
+  Disciplina ingles =  new Disciplina("LIN400", "Ingl√™s IV ", "Simple Past, Speaking, Job Apply", "Sexta-Feira", "13:10");
+  Disciplina ling =  new Disciplina("ILP512", "Linguagem de Programa√ß√£o IV ", "PHP", "Sexta-Feira", "15:00");
   
     ArrayList<Disciplina> lista = new ArrayList<>();
     lista.add(poo); lista.add(meto); lista.add(banco); lista.add(so);
@@ -32,7 +32,7 @@
     <body>
         <h1>Aula 11 - Tarefa</h1>
         <h1>Guilherme Blota Neves</h1>
-        
+        <h2>Ra: 1290482022010</h2>
         <%Date agora = new Date();%>
         
         <div> 
@@ -46,7 +46,7 @@
                     <th>Sigla:</th>   
                     <th>Ementa:</th>  
                     <th>Dia da Semana:</th>  
-                    <th>Hor·rio:</th>  
+                    <th>Hor√°rio:</th>  
                    
                 </tr>
                 <% for(Disciplina d: lista) {%>
