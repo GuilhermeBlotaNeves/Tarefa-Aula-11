@@ -18,8 +18,13 @@
   Disciplina ling =  new Disciplina("ILP512", "Linguagem de Programação IV ", "PHP", "Sexta-Feira", "15:00");
   
     ArrayList<Disciplina> lista = new ArrayList<>();
-    lista.add(poo); lista.add(meto); lista.add(banco); lista.add(so);
-    lista.add(eng); lista.add(ingles); lista.add(ling);
+    lista.add(poo); 
+    lista.add(meto); 
+    lista.add(ling);
+    lista.add(banco);
+    lista.add(so);
+    lista.add(eng); 
+    lista.add(ingles);
 %>
 
 
